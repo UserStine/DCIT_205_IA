@@ -7,31 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Computer Science department</title>
     <link rel="stylesheet" href="style.css">
+    <img src="images/comScience_logo.png" width="300px";>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 <body>
     <div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="images/comScience_logo.png" width="300px";>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="Activities.html"> Activities</a></li>
+                            <li><a href="Faculty.html">Faculty</a></li>
+                            <li><a href="Student.html">Student life</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                                            
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href=""> Home </a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                        <li><a href="about.html">About</a></li>
-                                <li><a href=""> Contact </a></li>
-                                      <li><a href=""> Student life </a></li>
-                                      <li><a href="Faq.html">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
         <div class="row">
             <div class="col-2">
                 <h1> Welcome To The<br>Computer Science Department </h1>
                 <p>  Welcome to a community where passion meets proficiency, <br>and the future of computing unfolds.</p>
-<a href=""class="btn">Explore Now &#8594;</a>
+                <a href="courses.html" class="btn">Explore Now &#8594;</a>
+
 
             </div>
             <div class="col-2">
@@ -160,20 +164,6 @@
 
 <!----------------- js for toggle menu ------------------>
 
-<script>
-    var MenuItems = document.getElementById("MenuItems");
 
-    MenuItems.style.maxHeight = "0px"
-
-    function menutoggle(){
-        if(MenuItems.style.maxHeight == "0px")
-    {
-        MenuItems.style.maxHeight ="200px"
-    }
-    else{
-        MenuItems.stylr.maxHeight ="0px"
-    }
-    }
-</script>
 </body>
 </html>
