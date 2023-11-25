@@ -7,15 +7,16 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: beige;
+    
     
 }
 .container {
     width: 80%; 
     margin: 0 auto; 
     padding: 20px; 
-    background-color: #f0f0f0; 
+    background-color:aliceblue; 
   }
+
 nav{
     flex: 1;
     text-align: right;
@@ -37,9 +38,10 @@ p{
 }
 .background-image{
     background-image: url(./images/050722-CONNECTION-4K.png);
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 
@@ -48,14 +50,6 @@ p{
 .header .row{
     margin-top: 70px;
 }
-
-
-
-
-
-
-
-
 .title{
     text-align: center;
     margin: 0;
@@ -70,12 +64,122 @@ ul{
     list-style-type: none;
 }
 
-
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 .menu-icon{
     width: 28px;
     margin-left: 20px;
     display: none;
+}
+      
+      
+    
+
+    .col-2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+
+    
+
+  #searchForm {
+    margin-top: 20px;
+  }
+
+  #searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: aliceblue;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(69, 91, 158);
+  }
+
+  #searchResults {
+    margin-top: 20px;
+    color: #333;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    display: inline-block;
+    background: #3b86ff;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #51360f;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.course {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    transition: transform 0.3s ease-in-out;
+}
+
+.course:hover {
+    transform: scale(1.05);
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+
+    .course {
+        width: 100%;
+    }
 }
 /*----------------- media query for menu ----------*/
 
@@ -127,4 +231,36 @@ ul{
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
     }
+    }
+    .footer{ 
+        padding: 0rem 3%; 
+        width: 100%; 
+        background-color: black;
+    } 
+    .main-footer{ 
+        display: flex; 
+        align-items: center; 
+        flex-wrap: wrap; 
+        gap: 2.5rem; 
+    } 
+    .footer-inner-content{ 
+        flex: 1 1 280px; 
+        padding: 1rem; 
+    } 
+    .footer-inner-content h2{ 
+        color: white; 
+        font-size: 20px;   
+        padding: 2rem 0; 
+    } 
+    .footer-inner-content p{ 
+        color: white; 
+        font-size: 0.75rem; 
+        margin: 1rem 0; 
+    } 
+    .footer-inner-content a{ 
+        text-decoration: none; 
+        display: block; 
+        color: white; 
+        font-size: 2.5rem; 
+        margin: 0.5rem 0; 
     }
