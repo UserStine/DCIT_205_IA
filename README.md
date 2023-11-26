@@ -32,4 +32,23 @@ This website's purpose is to operate as a primary online center for information 
 - 11170480
 
 ## Screenshots
-- 
+- ![Homepage](../Homepage1.PNG)
+- ![Homepage](../Homepage2.PNG)
+- ![Homepage](../Homepage3.PNG)
+- ![about](../About1.PNG)
+- ![about](../about2.PNG)
+- ![Activities](../Activities.PNG)
+- ![Activities](../activities2.PNG)
+- ![courses](../courses.PNG)
+- ![courses](../courses1.PNG)
+- ![faculty](../faculty1.PNG)
+- ![faculty](../faculty.PNG)
+- ![Student](../studentlife1.PNG)
+- ![student](../studentlife2.PNG)
+- ![Faq](../faq1.PNG)
+- ![faq](../faq2.PNG)
+- ![ login](../login.PNG)
+- ![contactus](../contactus.PNG)
+- ![registration](../registration.PNG)
+
+
